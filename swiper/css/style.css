@@ -35,48 +35,46 @@ body {
 .s1 .header img:nth-of-type(1){
     width: 30px;
     position: absolute;
-    left: 50px;
-    top: 127px;
+    left: 17%;
+    top: 12%;
 }
 .s1 .header img:nth-of-type(2){
     width: 60px;
     position: absolute;
-    left: 275px;
-    top: 90px;
+    left: 73%;
+    top: 10%;
 }
 .s1 .header img:nth-of-type(3){
     width: 50px;
     position: absolute;
-    left: 35px;
-    top: 430px;
+    left: 9%;
+    top: 68%;
 }
 .s1 .header img:nth-of-type(4){
     width: 50px;
     position: absolute;
-    left: 280px;
-    top: 410px;
+    left: 73%;
+    top: 66%;
 }
 .s1 .header img:nth-of-type(5){
-    width: 60%;
-    position: absolute;
-    left: 68px;
-    top: 164px;
+    width: 68%;
+    margin: 45% auto;
 }
 .s1 .main{
     position: absolute;
     top: 30%;
 }
 .s1 .main img:nth-of-type(1){
-    width: 160px;
-    position: absolute;
-    left: 111px;
-    top: 199px;
+    width: 40%;
+
 }
 .s1 .main img:nth-of-type(2){
-    width:310px;
-    position: absolute;
-    left: 35px;
-    top: 255px;
+    width:80%;
+
+}
+.img9{
+    width: 80%;
+    margin:auto;
 }
 .s1 .main p{
     color:#fff;
