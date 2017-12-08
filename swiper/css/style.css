@@ -30,11 +30,7 @@ body {
 
 }
 
-/*
- * 自定义样式 - 开始
- */
 
-/*向后的箭头样式*/
 .swiper-button-next {
     left: 50%;
     right: auto;
@@ -42,46 +38,48 @@ body {
     bottom: 5%;
     margin-left: -13.5px;
     transform: rotateZ(90deg);
+
 }
 
-/*
- * .s1 第一屏样式 - 开始
- */
+
 
 .s1, .s2 {
     background: url(../img/bj.png);
     height: 100%;
-    /*设置当前的元素为相对定位*/
     position: relative;
 }
 
 .s1 .header img {
-    /*设置绝对定位的位置*/
     position: absolute;
+
 }
 
 .s1 .header img:nth-of-type(1) {
     width: 30px;
     top: 120px;
     left: 50px;
+    animation:swing infinite;
 }
 
 .s1 .header img:nth-of-type(2) {
     width: 60px;
     right: 40px;
     top: 90px;
+    animation:swing infinite;
 }
 
 .s1 .header img:nth-of-type(3) {
     width: 50px;
     left: 30px;
     bottom: 180px;
+    animation:swing infinite;
 }
 
 .s1 .header img:nth-of-type(4) {
     width: 50px;
     right: 50px;
     bottom: 200px;
+    animation:swing infinite;
 }
 
 .s1 .header img:nth-of-type(5) {
@@ -89,9 +87,9 @@ body {
     left: 50%;
     top: 25%;
     margin-left: -35%;
+    animation:pulse infinite;
 }
 
-/*第一屏的文字部分*/
 .s1 .main {
     position: absolute;
     top: 30%;
@@ -122,7 +120,6 @@ body {
     line-height: 25px;
 }
 
-/*第一屏的底部*/
 .s1 .footer {
     color: #00d7b2;
     position: absolute;
@@ -151,7 +148,6 @@ body {
     left: -95px;
 }
 
-/*第二屏的样式*/
 .s2 {
     color: #00f8ca;
 }
@@ -224,11 +220,10 @@ body {
 }
 
 .s2 div span {
-    /*渐变色*/
-    background: -moz-linear-gradient(left, #00ecfc, #00fd9d); /*Mozilla*/
-    background: -webkit-gradient(linear, 0 50%, 100% 50%, from(#00ecfc), to(#00fd9d)); /*Old gradient for webkit*/
-    background: -webkit-linear-gradient(left, #00ecfc, #00fd9d); /*new gradient for Webkit*/
-    background: -o-linear-gradient(left, #00ecfc, #00fd9d); /*Opera11*/
+    background: -moz-linear-gradient(left, #00ecfc, #00fd9d);
+    background: -webkit-gradient(linear, 0 50%, 100% 50%, from(#00ecfc), to(#00fd9d));
+    background: -webkit-linear-gradient(left, #00ecfc, #00fd9d);
+    background: -o-linear-gradient(left, #00ecfc, #00fd9d);
     width: 120px;
     height: 25px;
     border-radius: 10px;
