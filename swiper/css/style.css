@@ -74,7 +74,7 @@ body {
     width: 10px;
 }
 
-.s1, .s2,.s3 {
+.s1, .s2,.s3,.s4,.s5,.s6,.s7 {
     background: url(../img/bj.png);
     height: 100%;
     position: relative;
@@ -406,4 +406,101 @@ body {
 
 .s3 .footer img:nth-of-type(2) {
     left: -95px;
+}
+
+
+.s4 h2 {
+    font-size: 26px;
+    position: relative;
+    top: 12%;
+    color:#00d7b2;
+}
+
+.s4 small {
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+.s4 h2::before,
+.s4 h2::after {
+    content: "";
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+
+.s4 h2::before {
+    background: url(../img/14.png);
+    background-size: contain;
+    margin-left: -95px;
+    margin-top: 10px;
+}
+
+.s4 h2::after {
+    background: url(../img/13.png);
+    background-size: contain;
+    margin-left: 66px;
+    margin-top: 10px;
+    top: 0;
+}
+.s4 .ss {
+    position: absolute;
+    top: 25%;
+    width: 80%;
+    height: 55%;
+    left: 50%;
+    margin-left: -40%;
+
+}
+
+.s4 .ss img {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    left: 0;
+}
+.s4 .ss p:nth-of-type(1){
+    color:#00d7b2;
+    position: absolute;
+    left: 25%;
+    top: 3%;
+}
+.s4 .ss p:nth-of-type(2){
+    color:#00bffe;
+    position: absolute;
+    left: 62%;
+    top: 3%;
+}
+.s4 .ss img:nth-of-type(2){
+    width: 15px;
+    height: 15px;
+    left: 19%;
+    top: 4%;
+}
+.s4 .ss img:nth-of-type(3){
+    width: 15px;
+    height: 15px;
+    left: 56%;
+    top: 4%;
+}
+.s4 .ss img:nth-of-type(4){
+    width: 13px;
+    height: 14px;
+    left: 1.5%;
+    top: 18%;
+}
+.s4 .ss img:nth-of-type(5){
+    width: 13px;
+    height: 14px;
+    left: 1.5%;
+    top: 40%;
+}
+.s4 .ss img:nth-of-type(6){
+    width: 13px;
+    height: 14px;
+    left: 1.5%;
+    top: 62%;
 }
