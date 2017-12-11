@@ -496,11 +496,80 @@ body {
     width: 13px;
     height: 14px;
     left: 1.5%;
-    top: 40%;
+    top: 42%;
 }
 .s4 .ss img:nth-of-type(6){
     width: 13px;
     height: 14px;
     left: 1.5%;
+    top: 63%;
+}
+.s4 span{
+    color:white;
+}
+.s4 .ss p:nth-of-type(3){
+    color:#00d7b2;
+    position: absolute;
+    left: 7%;
+    top: 17%;
+}
+.s4 .ss p:nth-of-type(4){
+    color:#00d7b2;
+    position: absolute;
+    left: 7%;
+    top: 40%;
+}
+.s4 .ss p:nth-of-type(5){
+    color:#00d7b2;
+    position: absolute;
+    left: 7%;
     top: 62%;
+}
+.s4 .ss li:nth-of-type(1){
+    position: absolute;
+    width: 80%;
+    height: 3%;
+    background-color:#00d7b2 ;
+    top:24%;
+    left: 3%;
+}
+.s4 .ss li:nth-of-type(2){
+    position: absolute;
+    width: 80%;
+    height: 3%;
+    background-color:#00bffe ;
+    top:29%;
+    left: 3%;
+}
+.s4 .ss li:nth-of-type(3){
+    position: absolute;
+    width: 80%;
+    height: 3%;
+    background-color:#00d7b2 ;
+    top:47%;
+    left: 3%;
+}
+.s4 .ss li:nth-of-type(4){
+    position: absolute;
+    width: 80%;
+    height: 3%;
+    background-color:#00bffe ;
+    top:52%;
+    left: 3%;
+}
+.s4 .ss li:nth-of-type(5){
+    position: absolute;
+    width: 80%;
+    height: 3%;
+    background-color:#00d7b2 ;
+    top:70%;
+    left: 3%;
+}
+.s4 .ss li:nth-of-type(6){
+    position: absolute;
+    width: 80%;
+    height: 3%;
+    background-color:#00bffe ;
+    top:75%;
+    left: 3%;
 }
