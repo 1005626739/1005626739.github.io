@@ -919,7 +919,7 @@ body {
 }
 
 .s6 li:nth-of-type(2){
-    top: 47%;
+    top: 46%;
     left: 19%;
 }
 .s6 #p2{
@@ -927,7 +927,7 @@ body {
     color:#11e8c6;
     text-align : left;
     position: absolute;
-    top: 47%;
+    top: 46%;
     width: 73%;
     height: 15%;
     left: 19%;
@@ -952,7 +952,7 @@ body {
     top: 65%;
 }
 .s6 li:nth-of-type(3){
-    top: 68%;
+    top: 67%;
     left: 19%;
 }
 .s6 #p3{
@@ -960,7 +960,7 @@ body {
     color:#11e8c6;
     text-align : left;
     position: absolute;
-    top: 68%;
+    top: 67%;
     width: 73%;
     height: 15%;
     left: 19%;
@@ -1007,6 +1007,135 @@ body {
 }
 
 .s6 .footer img:nth-of-type(2) {
+    left: -95px;
+    animation:footerimg2 1.5s infinite alternate;
+}
+
+
+
+
+
+
+
+
+
+.s7 h2 {
+    font-size: 26px;
+    position: relative;
+    top: 12%;
+    color:#00d7b2;
+}
+
+.s7 small {
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+.s7 h2::before,
+.s7 h2::after {
+    content: "";
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+
+.s7 h2::before {
+    background: url(../img/14.png);
+    background-size: contain;
+    margin-left: -95px;
+    margin-top: 10px;
+}
+
+.s7 h2::after {
+    background: url(../img/13.png);
+    background-size: contain;
+    margin-left: 66px;
+    margin-top: 10px;
+    top: 0;
+}
+.s7 #mm {
+    position: absolute;
+    top: 25%;
+    width: 80%;
+    height: 55%;
+    left: 10%;
+
+}
+
+.s7 #mm img {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    left: 0;
+}
+.s7 #mm input{
+    position: absolute;
+    width: 90%;
+    height: 14%;
+}
+.s7 #mm input:nth-of-type(1){
+    top: 10%;
+    left: 5%;
+}
+.s7 #mm input:nth-of-type(2){
+    top: 28%;
+    left: 5%;
+}
+.s7 #mm input:nth-of-type(3){
+    top: 46%;
+    left: 5%;
+}
+.s7 #mm button{
+    color:#fff;
+    background: #00f2ca;
+    width: 90%;
+    height: 14%;
+    position: absolute;
+    top: 68%;
+    left: 5%;
+}
+.s7 #mm p{
+    color:#00f2ca;
+    font-size: 16px;
+    position: absolute;
+}
+.s7 #mm p:nth-of-type(1){
+    top:83%;
+    left: 17%;
+}
+.s7 #mm p:nth-of-type(2){
+    top:89%;
+    left: 14%;
+}
+
+
+
+
+
+.s7 .footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.s7 .footer p {
+    height: 70px;
+}
+
+.s7 .footer img {
+    position: absolute;
+    height: 70px;
+}
+
+.s7 .footer img:nth-of-type(1) {
+    left: 0;
+    animation:footerimg1 2s infinite alternate;
+}
+
+.s7 .footer img:nth-of-type(2) {
     left: -95px;
     animation:footerimg2 1.5s infinite alternate;
 }
