@@ -732,7 +732,7 @@ body {
     left: 0;
 }
 .s5 #sss1 img:nth-of-type(2)  {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .s5 #ss2{
     position: absolute;
@@ -749,7 +749,7 @@ body {
     left: 0;
 }
 .s5 #ss2 img:nth-of-type(2)  {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .s5 #ss3{
     position: absolute;
@@ -766,7 +766,7 @@ body {
     left: 0;
 }
 .s5 #ss3 img:nth-of-type(2)  {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .s5 #ss4 {
     position: absolute;
@@ -783,13 +783,13 @@ body {
     left: 0;
 }
 .s5 #ss4 img:nth-of-type(2)  {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .s5 h3{
     position: absolute;
     font-size: 15px;
     color:#00d7b2;
-    top: 74%;
+    top: 72%;
     left: 13%;
 }
 .s5 p{
