@@ -1,4 +1,5 @@
 var swiper = new Swiper('.swiper-container', {
+    effect : 'cube',
     direction: 'vertical',
     navigation: {
         nextEl: '.swiper-button-next',
