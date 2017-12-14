@@ -144,7 +144,7 @@ body {
     top:7%;
     left: 10%;
 }
-.s2 p{
+.s2 p:nth-of-type(1){
     font-size: 14px;
     position: absolute;
     top: 25%;
@@ -154,5 +154,41 @@ body {
     text-align: left;
     width: 70%;
 }
+
+.s2 img:nth-of-type(1){
+    position: absolute;
+    top: 56%;
+    left: 10%;
+    width: 30%;
+    height: 17%;
+    border-radius: 50%  ;
+}
+.s2 img:nth-of-type(2){
+    position: absolute;
+    top: 47%;
+    left: 49%;
+    width: 30%;
+    height: 17%;
+    border-radius:50%;
+}
+.s2 p:nth-of-type(2){
+    font-size: 14px;
+    position: absolute;
+    top: 78%;
+    left: 10%;
+    color:#FAFAD2;
+    text-align: left;
+    width: 70%;
+}
+.s2 p:nth-of-type(3){
+    font-size: 14px;
+    position: absolute;
+    top: 81%;
+    left: 10%;
+    color:#FAFAD2;
+    text-align: left;
+    width: 70%;
+}
+
 
 
