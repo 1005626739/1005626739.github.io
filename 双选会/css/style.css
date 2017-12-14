@@ -137,3 +137,22 @@ body {
 
 
 
+.s2 h2{
+    color:#FAFAD2;
+    font-size: 46px;
+    position: absolute;
+    top:7%;
+    left: 10%;
+}
+.s2 p{
+    font-size: 14px;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    color:#FAFAD2;
+    line-height: 30px;
+    text-align: left;
+    width: 70%;
+}
+
+
