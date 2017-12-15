@@ -34,7 +34,7 @@ mp3Btn.onclick = function () {
         mp3Btn.style.animationPlayState = 'paused';
         mp3.pause();
     }
-}
+};
 
 
 
