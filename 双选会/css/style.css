@@ -95,6 +95,7 @@ body {
     width: 100%;
     position: relative;
 }
+
 .s1 img{
     position: absolute;
     width: 30%;
@@ -116,25 +117,25 @@ body {
     font-size: 40px;
     position: absolute;
     top: 32%;
-    left: 13%;
+    width: 100%;
 }
 .s1 p:nth-of-type(2){
     font-size: 68px;
     position: absolute;
     top: 39%;
-    left: 23%;
+    width: 100%;
 }
 .s1 p:nth-of-type(3){
     font-size: 50px;
     position: absolute;
     top:55%;
-    left: 30%;
+    width: 100%;
 }
 .s1 p:nth-of-type(4){
     font-size: 30px;
     position: absolute;
     top: 65%;
-    left: 34%;
+    width: 100%;
 }
 
 
